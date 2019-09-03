@@ -33,10 +33,12 @@ for movie in movies {
 movies.forEach { (movie) in
     print(movie)
 }
+
 /*---------------------------*/
 for movie in movies.sorted() {
     print(movie)
 }
+
 /*---------------------------*/
 var numbers: Set = [3,1,4,6,2,5]
 for number in numbers.sorted(){
